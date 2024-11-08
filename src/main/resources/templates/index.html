@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+<h1>Calculator</h1>
+<form action="/calculate" method="post">
+    <input type="text" name="expression" placeholder="Enter expression" required>
+    <button type="submit">Calculate</button>
+</form>
+
+<div>
+    <h2>Result:</h2>
+    <p th:text="${result}"></p>
+    <p th:text="${error}" style="color:red;"></p>
+</div>
+</body>
+</html>
