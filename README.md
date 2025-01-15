@@ -39,8 +39,6 @@ To run this project, you need:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/andrux2410/TPP_LABS.git
-   cd TPP_LABS/
    
 2. Build the project using Maven:
 
