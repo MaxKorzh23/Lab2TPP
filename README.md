@@ -39,6 +39,7 @@ To run this project, you need:
 1. Clone this repository:
 
    ```bash
+   git clone https://github.com/spring-guides/gs-spring-boot-docker.git
    
 2. Build the project using Maven:
 
